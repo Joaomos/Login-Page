@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.left-login > h1 {
+.left-login>h1 {
     font-size: 3vw;
     color: #77ffc0;
 }
@@ -51,7 +51,7 @@
     box-shadow: 0px 10px 40px #00000056;
 }
 
-.card-login > h1 {
+.card-login>h1 {
     color: #00ff88;
     font-weight: 800;
     margin: 0 0 10px 0;
@@ -65,7 +65,7 @@
     justify-content: center;
 }
 
-.textfield > input {
+.textfield>input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -79,12 +79,12 @@
     margin-bottom: 20px;
 }
 
-.textfield > label {
+.textfield>label {
     color: #f0ffffde;
     margin-bottom: 10px;
 }
 
-.textfield > input::placeholder {
+.textfield>input::placeholder {
     color: #f0ffff94;
 }
 
@@ -108,18 +108,19 @@
     text-align: center;
     font-size: 16px;
     background: #2f2841;
-  }
+}
 
-  .footer a {
+.footer a {
     color: #77ffc0;
     text-decoration: none;
     position: relative;
-  }
+}
 
-  .footer p {
+.footer p {
     margin: 0;
     padding: 20px;
-  }
+}
+
 @media only screen and (max-width: 950px) {
     .card-login {
         width: 85%;
@@ -130,7 +131,8 @@
     .main-login {
         flex-direction: column;
     }
-    .left-login > h1 {
+
+    .left-login>h1 {
         display: none;
     }
 
@@ -147,7 +149,7 @@
     .left-login-image {
         width: 50vw;
     }
-    
+
     .card-login {
         width: 90%;
 
