@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.login-pg {
+    width: 100vw;
+    overflow: hidden;
+}
+
 .main-login {
     display: flex;
     justify-content: center;
@@ -11,6 +16,7 @@
     height: 100vh;
     width: 100vw;
     background: #201b2c;
+    overflow: hidden;
 }
 
 .left-login {
@@ -102,24 +108,6 @@
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0 10px 40px -12px #00ff8052;
-}
-
-.footer {
-    text-align: center;
-    font-size: 16px;
-    width: 100vw;
-    background: #2f2841;
-}
-
-.footer a {
-    color: #77ffc0;
-    text-decoration: none;
-    position: relative;
-}
-
-.footer p {
-    margin: 0;
-    padding: 20px;
 }
 
 @media only screen and (max-width: 950px) {
